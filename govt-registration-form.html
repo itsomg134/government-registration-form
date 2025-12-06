@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligence Bureau - MTS Application Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8e8e8;
+        }
+
+        .header {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 3px solid #2c3e50;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .header h2 {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .header h3 {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .nav-bar {
+            background-color: #34495e;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-bar .title {
+            color: white;
+            font-size: 18px;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-buttons button {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 8px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 3px;
+        }
+
+        .nav-buttons button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .instructions {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .instructions h3 {
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .instructions .toggle {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .section-header {
+            background-color: #34495e;
+            color: white;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .form-section {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .form-section h3 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-size: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #34495e;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .required {
+            color: red;
+            margin-left: 3px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group input[type="date"],
+        .form-group select {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .note-box {
+            background-color: #fff9e6;
+            border: 1px dashed #f39c12;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .note-box strong {
+            color: #e74c3c;
+        }
+
+        .button-group {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #27ae60;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #229954;
+        }
+
+        .btn-secondary {
+            background-color: #95a5a6;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>INTELLIGENCE BUREAU</h1>
+        <h2>(Ministry of Home Affairs)</h2>
+        <h3>Government of India</h3>
+    </div>
+
+    <div class="nav-bar">
+        <div class="title">Multi-Tasking Staff (General) MTS (G) Application Form</div>
+        <div class="nav-buttons">
+            <button>LOGIN</button>
+            <button>HOME</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="instructions">
+            <h3><span>ℹ️</span> Instructions:</h3>
+            <span class="toggle">+</span>
+        </div>
+
+        <div class="section-header">REGISTRATION</div>
+
+        <div class="form-section">
+            <h3>Register to get User ID and Password</h3>
+
+            <div class="form-group">
+                <label>Candidate's / Applicant's Full Name: <span class="required">*</span></label>
+                <input type="text" placeholder="Candidate's / Applicant's Full Name">
+                <div class="note-box">
+                    <strong>Note:</strong><br>
+                    (Please enter your name strictly as per your Matriculation/10th certificate/SSC).
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Mother's Name: <span class="required">*</span></label>
+                <input type="text" placeholder="Mother's Name">
+            </div>
+
+            <div class="form-group">
+                <label>Father's / Husband's Name: <span class="required">*</span></label>
+                <input type="text" placeholder="Father's / Husband's Name">
+            </div>
+
+            <div class="form-group">
+                <label>Date of Birth: <span class="required">*</span></label>
+                <input type="date">
+                <div class="note-box">
+                    <strong>Note:</strong><br>
+                    (Please enter date of birth as per your Matriculation/10th certificate/SSC).
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Gender: <span class="required">*</span></label>
+                <select>
+                    <option value="">-- Select Gender --</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Email Address: <span class="required">*</span></label>
+                <input type="email" placeholder="your.email@example.com">
+                <div class="note-box">
+                    <strong>Note:</strong><br>
+                    (Please provide a valid email address. Your User ID and Password will be sent to this email).
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Mobile Number: <span class="required">*</span></label>
+                <input type="tel" placeholder="10-digit Mobile Number">
+            </div>
+
+            <div class="form-group">
+                <label>Category: <span class="required">*</span></label>
+                <select>
+                    <option value="">-- Select Category --</option>
+                    <option value="general">General</option>
+                    <option value="obc">OBC</option>
+                    <option value="sc">SC</option>
+                    <option value="st">ST</option>
+                    <option value="ews">EWS</option>
+                </select>
+            </div>
+
+            <div class="button-group">
+                <button class="btn btn-primary">Register</button>
+                <button class="btn btn-secondary">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
