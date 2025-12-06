@@ -1,6 +1,7 @@
 # Intelligence Bureau Application Form
 
 A clean and professional government application form interface built with HTML and CSS, designed for the Intelligence Bureau's Multi-Tasking Staff (MTS) recruitment process.
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/51e61284-c421-4e86-972f-c61eccee761a" />
 
 ## Features
 
